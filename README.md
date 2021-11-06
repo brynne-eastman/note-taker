@@ -32,7 +32,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 - HTML
 - Node
 
-### Screenshots
+### Screenshot
 ![screenshot](./assets/images/note-taker-1.PNG)
 
 ### License
@@ -45,5 +45,5 @@ If you have any questions about this application, please contact me at brynne.ea
 
 Heroku: https://nameless-badlands-75301.herokuapp.com/notes
 
-GitHubhttps://github.com/brynne-eastman/note-taker
+GitHub: https://github.com/brynne-eastman/note-taker
 
