@@ -44,7 +44,7 @@ app.delete('./api/notes/:id', (req, res) => {
 
     savedNotes = savedNotes.filter(selected => {
         return selected.id != noteId;
-    });
+    })
 
     fs.writeFileSync('./db/db.json', JSON.stringify(savedNotes));
     res.json(savedNotes);
