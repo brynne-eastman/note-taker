@@ -42,7 +42,7 @@ Mock-Up
 
 ### Installation
 - Clone respository
--Install inquirer: npm install
+- Install inquirer: npm install
 
 ### Languages
 - Express
