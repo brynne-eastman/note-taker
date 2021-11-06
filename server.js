@@ -42,33 +42,13 @@ app.delete('./api/notes/:id', (req, res) => {
     let savedNotes = JSON.parse(fs.readFileSync('./db/db/json', 'utf8'));
     let noteId = (req.params.id).toString;
 
-})
+    savedNotes = savedNotes.filter(selected => {
+        return selected.id !=noteId;
+    });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    fs.writeFileSync('./db/db.json', JSON.stringify(savedNotes));
+    res.json(savedNotes);
+});
 
 //Listen
 app.listen(PORT, () => {
