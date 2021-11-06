@@ -62,7 +62,7 @@ If you have any questions about this application, please contact me at brynne.ea
 
 ### Links
 
-Heroku: https://nameless-badlands-75301.herokuapp.com/notes
+Heroku: https://nameless-badlands-75301.herokuapp.com
 
 GitHub: https://github.com/brynne-eastman/note-taker
 
