@@ -52,7 +52,7 @@ Mock-Up
 - Node
 
 ### Screenshot
-![screenshot](public/assets/images/note-taker-1.PNG)
+![screenshot](public/assets/images/note-taker-1.png)
 
 ### License
 MIT
