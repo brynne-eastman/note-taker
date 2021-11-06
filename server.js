@@ -26,7 +26,16 @@ app.get('*', (req, res) => {
 });
 
 //POST route - APIs
+app.post('/api/notes', (req, res) => {
+    let newNote = req.body;
+    let savedNotes = JSON.parse(fs.readFileSync('./db/db.json', 'utf8'));
+    let noteLength = (savedNotes.length).toString();
+    newNote.id = noteLength;
+    savedNotes.push(newNote);
 
+    fs.writeFileSync('./db/db.json', JSON.stringify(savedNotes));
+    res.json(savedNotes);
+});
 
 
 
