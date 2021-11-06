@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
-//notes.html route
+//GET Route -notes.html
 app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/notes.html'));
 });
@@ -19,6 +19,14 @@ app.get('/notes', (req, res) => {
 app.get('/api/notes', (req, res) => {
     res.sendFile(path.join(__dirname, 'db/db.json'));
 });
+
+//GET route - index.html
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/index.html'));
+});
+
+//POST route - APIs
+
 
 
 
