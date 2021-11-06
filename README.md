@@ -6,7 +6,6 @@
 * [Acceptance Criteria](#acceptanceCriteria)
 * [Installation](#installation)
 * [Languages](#languages)
-* [Usage](#usage)
 * [Screenshot](#screenshot)
 * [License](#license)
 * [Questions](#questions)
@@ -53,6 +52,7 @@ Mock-Up
 
 ### Screenshot
 ![screenshot](public/assets/images/note-taker-1.png)
+![screenshot](public/assets/images/note-taker-2.png)
 
 ### License
 MIT
